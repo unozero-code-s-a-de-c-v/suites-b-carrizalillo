@@ -1,9 +1,8 @@
   {
       "inicio": "Home",
+      "about": "About",
       "bungalows": "Bungalows",
       "apartments": "Apartments",
-      "rooms" : "rooms",
       "contact" : "Contact Us",
-      "attractions": "Attractions",
-     
+      "attractions": "Attractions"
     }
