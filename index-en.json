@@ -1,14 +1,9 @@
-  {
-      "inicio": "Home",
-      "bungalows": "bungalows",
-      "apartments": "Apartments",
-      "rooms" : "rooms",
-      "contact" : "Contact Us",
-      "attractions": "Attractions",
-      "best-option" : "For business or pleasure, we are your best option.",
+{
+     "best-option" : "For business or pleasure, we are your best option.",
       "reserve-enjoy": "Reserve with us and enjoy your stay.",
       "friends-family": "Our hotel maintains a peaceful atmosphere that can be enjoyed with friends or family.",
       "bungalows-apartments": "Bungalows and Apartments",
-      "bungalow-amenties": "We have 2 bungalows, these have a bedroom (with a Queen bed), living room (with sofa-bed, TV), a well equipped kitchenette, bathrooms, and independently, on the top part of the bungalows there is a palapa with two bunk beds (single-size mattresses), and a sofa bed."
-    }
-    
+      "bungalow-amenities": "We have 2 bungalows, these have a bedroom (with a Queen bed), living room (with sofa-bed, TV), a well equipped kitchenette, bathrooms, and independently, on the top part of the bungalows there is a palapa with two bunk beds (single-size mattresses), and a sofa bed.",
+      "more-details": "More details...",
+      "six-apartments": ""
+}
