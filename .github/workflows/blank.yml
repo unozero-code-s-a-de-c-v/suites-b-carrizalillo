@@ -8,8 +8,8 @@ jobs:
       - name: Audit URLs using Lighthouse
         uses: treosh/lighthouse-ci-action@v2
         with:
-          urls: |
-          https://suites-carrizalillo-961c3-a6f78.web.beta.kintohub.com/
+          urls: 
+            https://suites-carrizalillo-961c3-a6f78.web.beta.kintohub.com/
             
       - name: Save results
         uses: actions/upload-artifact@v1
