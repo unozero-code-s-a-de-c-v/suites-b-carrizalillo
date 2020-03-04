@@ -76,7 +76,7 @@
                 </div>
               </div>
               <style>
-              
+
               </style>
               <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
@@ -85,17 +85,42 @@
                 <div class="rd-navbar-nav-wrap">
                   <div class="rd-navbar-nav-inner">
                     <ul class="rd-navbar-nav">
-                      <li><a href="./">Inicio</a>
+                      <li  ><a data-translate="inicio" href="./">Inicio</a>
                       </li>
-                      <li><a data-translate="about" href="about-us.html">Acerca de</a>
+                      <li ><a data-translate="about" href="about-us.html">Acerca de</a>
                       </li>
                       <li><a data-translate="bungalows" href="bungalows.html">Bungalows</a>
                         <li><a data-translate="apartments" href="rooms.html">Departamentos</a>
                       </li>
-                      
-                      <li class="active"><a data-translate="contact" href="contacts-us.html">Contáctanos</a>
+  
+                      <li class="active"><a data-translate="contact" href="contacts-us.html" >Contáctanos</a>
                       </li>
                       <li><a data-translate="attractions" href="attractions.html">Explorar </a>
+                      </li>
+                      <li id="selectLanguage">
+                        <a id="langSelected">Español</a>
+                        <ul class="rd-navbar-dropdown">
+                          <li>
+                            <a onclick="translateLang('contact')"
+                              ><img
+                                src="images/flags/en.png"
+                                width="35px"
+                                height="35px"
+                              />
+                              English
+                            </a>
+                          </li>
+                          <li>
+                            <a onclick="langDefault()"
+                              ><img
+                                src="images/flags/es.png"
+                                width="35px"
+                                height="35px"
+                              />
+                              Español
+                            </a>
+                          </li>
+                        </ul>
                       </li>
                     </ul>
                   </div>
@@ -116,17 +141,17 @@
       <section class="section-60 section-md-top-90 section-md-bottom-100">
         <div class="container">
           <div class="row justify-content-lg-between row-60">
-            
+
             <div class="col-lg-12 col-xl-12">
               <div class="inset-lg-right-15 inset-xl-right-0">
                 <div class="row row-30">
                   <div class="col-md-6 col-lg-6">
                     <h3 data-translate="contact-detail" class="text-spacing--25">Datos de Contácto</h3>
                     <p data-translate="contact-detail-2" class="text-black text-justify">Si tienes alguna pregunta no dudes en contactarnos por cualquiera de los medios proporcionados, o puedes encontrarnos en la dirección que se muestra en el mapa.
-                      
+
                     </p>
                   </div>
-                
+
                     <address class="contact-info text-left col-md-6 col-lg-6">
                       <div class="unit unit-horizontal unit-spacing-xl" style="padding-top: 2rem !important;">
                         <div class="unit-left"><span class="icon icon-xs icon-primary material-icons-place"></span></div>
@@ -140,9 +165,9 @@
                         <div class="unit-left"><span class="icon icon-xs icon-primary fa fa-envelope-o"></span></div>
                         <div class="unit-body"><a class="link-black" href="mailto:laurabibiana@rocketmail.com">laurabibiana@rocketmail.com</a></div>
                       </div>
-                      
+
                     </address>
-        
+
                 </div>
               </div>
             </div>
@@ -163,20 +188,20 @@
             <div class="col-sm-9 col-md-11 col-xl-12">
               <div class="row row-50">
                 <div class="col-md-6 col-lg-10 col-xl-4 ">
-                  <div class="row container justify-content-center" style="max-width: 510px;"><a class="brand brand-inverse" href="./"><img src="images/logos/04.png" width="200" height="auto" alt=""></a>
-                    <p data-translate="mission-detail" class="col-12 text-spacing--30 text-kashmir-blue text-justify">
+                  <div class="row container justify-content-center" style="max-width: 510px;"><a class="brand brand-inverse" href="./"><img src="images/logos/04.png" width="200" height="100" alt=""></a>
+                    <p data-translate="our-objective" class="col-12 text-spacing--30 text-kashmir-blue text-justify">
                       "Nuestro objetivo es brindar la máxima comodidad y satisfacción a nuestros huéspedes, por eso nos esforzamos en mejorar nuestros servicios cada día."</p>
                   </div>
                 </div>
-                
+
                 <div class="col-md-6 col-lg-4 col-xl-4">
                   <h6 data-translate="quick-access" class="h6 footer-title">Acceso rápido</h6>
                   <div class="row" style="max-width: 270px;">
                     <div class="col-6">
                       <ul class="list-marked-variant-2">
-                        <li><a data-translate="home" href="./">Inicio</a></li>
+                        <li><a data-translate="inicio" href="./">Inicio</a></li>
                         <li><a data-translate="bungalows" href="bungalows.html">Bungalows</a></li>
-                        
+
                         <li><a data-translate="contact" href="contacts-us.html">Contáctanos</a></li>
                       </ul>
                     </div>
@@ -223,7 +248,7 @@
           <div class="container text-center">
             <div class="row flex-row-md-reverse justify-content-md-between align-items-md-center row-15">
               <div class="col-md-6 text-md-left">
-                <p class="rights text-white"><span class="copyright-year"></span><span>&nbsp;&#169;&nbsp;</span><span>Hotel Suites Brisas Carrizalillo.&nbsp;</span><a class="link-white-v2" href="https://unozerocode.com">Desarrollado por UnoZero Code S.A. de C.V.</a></p>
+                <p class="rights text-white"><span class="copyright-year"></span><span>&nbsp;&#169;&nbsp;</span><span>Hotel Suites Brisas Carrizalillo.&nbsp;</span><a class="link-white-v2" href="https://unozerocode.com" data-translate="developed-by">Desarrollado por UnoZero Code S.A. de C.V.</a></p>
               </div>
               <div class="col-md-6 text-md-right">
                 <div class="group-sm group-middle">
@@ -232,12 +257,10 @@
                     <li><a class="icon icon-circle icon-blue-bayoux icon-xxs-smallest fa fa-facebook" href="https://www.facebook.com/suitesbrisascarrizalillo/"></a></li>
                     <li><a class="icon icon-circle icon-blue-bayoux icon-xxs-smallest fa fa-instagram"
                       href="https://www.instagram.com/suites_brisas_carrizalillo/"></a></li>
-                   
-                    
                   </ul>
                 </div>
               </div>
-              
+
             </div>
           </div>
         </section>
@@ -247,14 +270,21 @@
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
-    <!-- coded by kraken-->
+    <script src="js/jqueryTranslator.min.js"></script>
+    <script src="js/lang.js"></script>
+    <script>
+
+    (function(){
+      loadLanguage("contact")
+    })();
+    </script>
     <div id="pi-btn" class="pi-fixed-action-btn">
 
       <button type="pi-button" id="pi-activador"
         class="pi-btn-floating pi-icon pi-mdi pi-icon-chat pi-icon-xl pi-btn-large"></button>
     </div>
     <div id="pi-chatbx" class="pi-chatbx">
-  
+
     </div>
   </body>
 </html>

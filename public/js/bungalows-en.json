@@ -1,15 +1,16 @@
 {
     "specifications": "Specifications",
     "description": "Description",
+    "amenities":"Amenities",
     "description-detail": "Our 2 bungalows have a bedroom (with Queen bed), living room (with sofa-bed and TV), a kitchenette (equipped with dishes, refridgerator, oven), bathrooom. Each bungalow has a palapa, which includes a sofa and two bunk-beds with individual mattresses.",
     "description-detail-2": "We have a common area with a grill available for our guests. Our pool is large and deep, surrounded by tables and chairs with shades to relax and sunbathe.",
-    "bedroom": "Bedrooom (with Queen bed, closet)",
-    "living-room": "Small living room (with sofa-bed)",
-    "kitchenette": "Kitchenette (equipped with refrigerator, blender, microwave, dishes)",
-    "terrace": "Terrace",
-    "parking": "Enclosed parking",
-    "palapa": "Palapa (with two individual-sized bunk beds and a sofa)",
-    "bathroom": "Bathroom",
+    "bedroom": "&nbsp;&nbsp;&nbsp; Bedrooom (with Queen bed, closet)",
+    "living-room": "&nbsp;&nbsp;&nbsp; Small living room (with sofa-bed)",
+    "kitchenette": "&nbsp;&nbsp;&nbsp; Kitchenette (equipped with refrigerator, blender, microwave, dishes)",
+    "terrace": "&nbsp;&nbsp;&nbsp; Terrace",
+    "parking": "&nbsp;&nbsp;&nbsp; Enclosed parking",
+    "palapa": "&nbsp;&nbsp;&nbsp; Palapa (with two individual-sized bunk beds and a sofa)",
+    "bathroom": "&nbsp;&nbsp;&nbsp; Bathroom",
     "services": "Services",
     "hot-water": "Hot Water",
     "hot-water-detail": "All units have hot water.",
@@ -18,14 +19,5 @@
     "tv-detail": "All units have SKY TV access",
     "wifi-detail": "Wi-Fi available for hotel guests",
     "grill": "Grill",
-    "grill-detail": "Grill available to enjoy with family or friends.",
-    "mission-detail": "Our mission is to provide maximum comfort and satisfaction to our guests, this is why we work to improve our services every day",
-    "quick-access": "Quick access",
-    
-
-
-
-
-
-
+    "grill-detail": "Grill available to enjoy with family or friends."
 }

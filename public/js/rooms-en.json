@@ -1,14 +1,15 @@
 {
+    "specifications": "Specifications",
     "description": "Description",
     "room-description": "Our 6 apartments have two bedrooms (the first bedroom has a Queen bed and the second bedroom has two individual beds, or both bedroooms with a Queen bed), living room (with TV), kitchen (equipped with dishes, refrigerator, microwave), terrace, bathroom",
     "room-description-2": "There is a palapa area to relax, with a beautiful view of the sea, stationary bicycles for exercising, and also a grill for enjoying good times.",
     "amenities": "Amenities",
-    "amenity-2": "2 Bedrooms (in one bedroom there is a Queen bed, and in the other, a two individual beds)",
-    "amenity-3": "Small living room (with TV)",
-    "amenity-4": "Kitchen (equipped with refidgerator, blender, microwave, and dishware)",
-    "terrace": "Terrace",
-    "fans": "Fans (ceiling and floor)",
-    "bathroom": "Bathroom (WC)",    
+    "amenity-2": "&nbsp;&nbsp;&nbsp; 2 Bedrooms (in one bedroom there is a Queen bed, and in the other, a two individual beds)",
+    "amenity-3": "&nbsp;&nbsp;&nbsp; Small living room (with TV)",
+    "amenity-4": "&nbsp;&nbsp;&nbsp; Kitchen (equipped with refidgerator, blender, microwave, and dishware)",
+    "terrace": "&nbsp;&nbsp;&nbsp; Terrace",
+    "fans": "&nbsp;&nbsp;&nbsp; Fans (ceiling and floor)",
+    "bathroom": "&nbsp;&nbsp;&nbsp; Bathroom (WC)",    
     "services": "Services",
     "hot-water": "Hot Water",
     "hot-water-detail": "All units have hot water",
@@ -19,9 +20,5 @@
     "grill": "Grill",
     "grill-detail": "Grill available to enjoy with family or friends.",
     "stationary-bike": "Stationary Bike",
-    "stationary-bike-detail": "We have stationary bikes for exercising.",
-    "mission-detail": "Our mission is to provide maximum comfort and satisfaction to our guests, this is why we work to improve our services every day.",
-    "developed-by": "Developed by UnoZero Code S.A. de C.V."
-
-
+    "stationary-bike-detail": "We have stationary bikes for exercising."
 }
