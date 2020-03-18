@@ -1,0 +1,26 @@
+{
+  "name": "suites-b-carrizalillo",
+  "version": "1.0.0",
+  "description": "Web site",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "cypress run",
+    "server": "http-server public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unozerocode/suites-b-carrizalillo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unozerocode/suites-b-carrizalillo/issues"
+  },
+  "homepage": "https://github.com/unozerocode/suites-b-carrizalillo#readme",
+  "devDependencies": {
+    "cypress": "^4.2.0"
+  },
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}
