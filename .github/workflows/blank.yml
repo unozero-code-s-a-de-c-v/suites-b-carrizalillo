@@ -1,16 +1,15 @@
-name: Lighthouse
+name: LighthouseAndCypress
 on: push
 jobs:
-  test:
+  cypress-test:
     runs-on: ubuntu-latest
     steps:
-      - run: npm install
         env:
           CI: true
       - name: Cypress run
         uses: cypress-io/github-action@v1
         with:
-          start: npm run-script serve
+          start: npm run-script server
           wait-on: http://localhost:8080
           
   lighthouse:
