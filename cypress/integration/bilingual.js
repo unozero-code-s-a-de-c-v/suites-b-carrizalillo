@@ -11,12 +11,13 @@ context('Window', () => {
      cy.get('[data-translate="inicio"]').contains("Home")
      cy.get('[data-translate="about"]').contains("About Us")
      cy.get('[data-translate="contact"]').contains("Contact Us")
+     cy.screenshot()
 
      //Spanish
      cy.get('.rd-navbar-dropdown > :nth-child(2) > a').click({force: true})
      cy.get('[data-translate="inicio"]').contains("Inicio")
      cy.get('[data-translate="about"]').contains("Acerca de")
      cy.get('[data-translate="contact"]').contains("Contáctanos")
-  
+     cy.screenshot()
   })
 })

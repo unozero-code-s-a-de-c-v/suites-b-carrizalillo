@@ -1,5 +1,8 @@
-# suites-b-carrizalillo
-Sitio Brisas Carrizalillo
+# Sitio Brisas Carrizalillo
 
-[![GitHubCI](https://github.com/unozerocode/suites-b-carrizalillo/workflows/Lighthouse/badge.svg)](https://github.com/unozerocode/suites-b-carrizalillo/actions?query=workflow%3A%22Lighthouse%22)
+[![GitHubCI](https://github.com/unozero-code-s-a-de-c-v/suites-b-carrizalillo/workflows/LighthouseAndCypress/badge.svg)](https://github.com/unozero-code-s-a-de-c-v/suites-b-carrizalillo/actions?query=workflow%3A%22LighthouseAndCypress%22)
 
+
+Deployed:
+
+[GCP](https://suites-b-carrizalillo-zwqf2iseqa-uc.a.run.app)

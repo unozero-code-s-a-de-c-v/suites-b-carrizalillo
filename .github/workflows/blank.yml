@@ -12,6 +12,18 @@ jobs:
         with:
           start: npm run-script server
           wait-on: http://localhost:8080
+      - name: Save screenshots
+        uses: actions/upload-artifact@v1
+        if: always()
+        with:
+        name: cypress-screenshots
+        path: cypress/screenshots
+      - name: Save videos
+        uses: actions/upload-artifact@v1
+        if: always()
+        with:
+          name: cypress-videos
+          path: cypress/videos
       - name: Audit URLs using Lighthouse
         uses: treosh/lighthouse-ci-action@v2
         with:
